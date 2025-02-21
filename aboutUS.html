@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .about{
+        margin-top: -90px;
+    }
+    
+.about-1 h1{
+font-size: 8vw;
+padding: 16px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+color: white;
+/* background-image: url(pexels-eslames1-28669112.jpg); */
+
+}
+.about-1{
+background-image: url(pexels-steve-1509534.jpg);
+border-radius: 25px;
+margin-bottom: -90px;
+}
+.text{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ text-align: center;
+ padding: 20px;
+margin-top: 100px;
+}
+.text1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ text-align: center;
+ padding: 20px;
+ margin-top: -20px
+
+}
+.text1 h1, .text1 p {
+    margin: 0; 
+  }
+.text h1, .text p {
+    margin: 0; 
+  }
+  .text1 h1{
+    font-size: 4vw;
+    color: #5060bc;
+  }
+  .text h1{
+    font-size: 4vw;
+    color: #5060bc;
+  }
+.text1 img{
+    height:400px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius:25px;
+}
+
+
+
+</style>
+</head>
+<body>
+    <div class="about">
+       <div>
+        <div class="about-1">
+            <h1>About Us</h1>
+       </div>
+       </div>
+        <div class="text">
+           <h1>Welcome to LOGISTICA</h1>
+           <p>Welcome to LOGISTICA, a premier name in freight forwarding and logistics based in Pakistan. We specialize in delivering reliable and cost-effective solutions for all your logistics and freight needs. At LOGISTICA, we offer a wide range of services, including import,export freight (LCL/FCL & AIR), warehousing, transportation, and distribution. Our clients view us as a crucial partner in their logistics operations, seamlessly integrating into their supply chain to enhance efficiency and reliability. We pride ourselves on leveraging cutting-edge technology and innovative practices to stay ahead in the industry. Our commitment to excellence and collaboration ensures that we consistently exceed our clients' expectations, fostering long-term partnerships and driving growth. Join the growing list of satisfied clients who trust LOGISTICA for their comprehensive freight and logistics solutions.</p>
+        </div>
+        <div class="text1">
+            <h1>OUR SERVICES</h1>
+            <p>At LOGISTICA, we offer a full suite of freight forwarding and logistics services tailored to meet the diverse needs of our global clientele.
+
+                Our clients rely on us as a key partner for their import,export needs, including LCL, FCL, and air freight, as well as warehousing, transportation, and distribution. We are dedicated to integrating seamlessly into their operations to ensure smooth and efficient logistics management.
+                
+                By employing the latest technology and innovative logistics practices, LOGISTICA consistently enhances operational efficiency. Our commitment to cutting-edge solutions and collaborative approaches has made us a trusted choice for companies seeking reliable and effective logistics services.</p>
+         </div>
+         <div class="text1">
+            <h1>CEO's Message</h1>
+                    <img src="pexels-eslames1-28669112.jpg" alt="">
+                    
+            <p style="width: 40%; margin:auto;">Our CEO, Ishtiaq Chaudhary, is committed to advancing our infrastructure and elevating our services. Under his leadership, LOGISTICA consistently strives for excellence and innovation, ensuring that our clients receive the most reliable and efficient solutions in the industry. Trust in our dedication to delivering top-tier service and seamless logistics.With over 25 years of experience in NVOCC import and clearing,His constant hard work and resilient nature have been instrumental in our success. His expertise and leadership continue to drive LOGISTICA forward, making us a trusted partner in the logistics industry.</p>
+         </div>
+         <div class="text1">
+            <h1>Company Mottos</h1>
+            <p >Welcome to LOGISTICA, a premier name in freight forwarding and logistics based in Pakistan. We specialize in delivering reliable and cost-effective solutions for all your logistics and freight needs. At LOGISTICA, we offer a wide range of services, including import,export freight (LCL/FCL & AIR), warehousing, transportation, and distribution. Our clients view us as a crucial partner in their logistics operations, seamlessly integrating into their supply chain to enhance efficiency and reliability. We pride ourselves on leveraging cutting-edge technology and innovative practices to stay ahead in the industry. Our commitment to excellence and collaboration ensures that we consistently exceed our clients' expectations, fostering long-term partnerships and driving growth. Join the growing list of satisfied clients who trust LOGISTICA for their comprehensive freight and logistics solutions.</p>
+                <div>
+                    <img src="pexels-eslames1-28669112.jpg" alt="">
+                    <img src="pexels-pixabay-259915.jpg" alt="">
+
+                    <img src="pexels-steve-1509534.jpg" alt="">
+                    <img src="pexels-pixabay-259915.jpg" alt="">
+
+                </div>  
+        </div>
+       
+    </div>
+    <div id="footer"></div>
+    <script>
+         fetch('footer.html')  
+      .then(response => response.text()) 
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+
+    </script>
+</body>
+</html>
